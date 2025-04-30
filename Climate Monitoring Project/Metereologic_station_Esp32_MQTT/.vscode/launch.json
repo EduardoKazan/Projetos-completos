@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/omena/OneDrive/Área de Trabalho/Edu/Projetos/GitHub/Projetos-completos/Climate Monitoring Project/Metereologic_station_Esp32_MQTT",
+      "program": "c:/Users/omena/OneDrive/Área de Trabalho/Edu/Projetos/GitHub/Projetos-completos/Climate Monitoring Project/Metereologic_station_Esp32_MQTT/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
