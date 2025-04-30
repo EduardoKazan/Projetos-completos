@@ -1,0 +1,22 @@
+#1. Inicializar o repositório local: 
+git init
+
+#2. Adicionar os arquivos ao controle de versão: 
+git add .
+git commit -m "second commit"
+
+#3. Criar um repositório no GitHub
+
+#4. Vincular o repositório local ao GitHub
+#git remote add origin https://github.com/EduardoKazan/Projetos-escritos-em-html.git
+
+#5. Enviar os arquivos para o GitHub
+git branch -M main  # Garante que está na branch principal
+git push --set-upstream origin main
+git push
+
+#6. Sincronizar futuras mudanças (Pull e Push)
+git pull origin main
+git add .
+git commit -m "Mensagem do commit"
+git push

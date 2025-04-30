@@ -1,0 +1,16 @@
+links tutoriais projetos
+
+https://oshwlab.com/jerry.komor/web-4ch-switch-thermometer
+https://oshwlab.com/jerry.komor/32u4_can
+https://oshwlab.com/romerzurco/NRF24L01
+https://www.youtube.com/watch?v=0xZPhPjsnRo&list=WL&index=8&ab_channel=ELECTRONOOBSenEspa%C3%B1ol
+https://electronoobs.com/eng_arduino_tut25_grb1.php
+https://electronoobs.com/eng_arduino_tut25_code5.php
+https://electronoobs.com/eng_arduino_tut25.php
+https://electronoobs.com/eng_arduino_tut25_code4.php
+https://electronoobs.com/eng_arduino_tut25_parts1.php
+https://electronoobs.com/eng_arduino_tut25_sch4.php
+https://electronoobs.com/eng_arduino_tut25_code3.php
+https://electronoobs.com/eng_arduino_tut25_sch3.php
+https://learning.edx.org/course/course-v1:IITBombayX+CS101.2x+1T2021/home
+https://oshwlab.com/wangruohan668/esp32-multi-functional-remote-co
