@@ -1,0 +1,54 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/main",
+        "${workspaceFolder}/main/include",
+        "${workspaceFolder}/esp_idf_components/**",
+        "${env:IDF_PATH}/components/**",
+        "${env:IDF_PATH}/components/freertos/include",
+        "${env:IDF_PATH}/components/driver/include",
+        "${env:IDF_PATH}/components/esp_system/include",
+        "${env:IDF_PATH}/components/esp_common/include",
+        "${env:IDF_PATH}/components/esp_rom/include",
+        "${env:IDF_PATH}/components/esp_hw_support/include",
+        "${env:IDF_PATH}/components/esp_timer/include",
+        "${env:IDF_PATH}/components/log/include",
+        "${env:IDF_PATH}/components/newlib/include",
+        "${env:IDF_PATH}/components/soc/include",
+        "${env:IDF_PATH}/components/hal/include",
+        "${env:IDF_PATH}/components/xtensa/include",
+        "${env:IDF_PATH}/components/esp32/include",
+        "${env:IDF_PATH}/components/esp_wifi/include",
+        "${env:IDF_PATH}/components/nvs_flash/include",
+        "${env:IDF_PATH}/components/lwip/include",
+        "${env:IDF_PATH}/components/mbedtls/include",
+        "${env:IDF_PATH}/components/protocomm/include",
+        "${env:IDF_PATH}/components/console/include",
+        "${env:IDF_PATH}/components/esp_http_client/include",
+        "${env:IDF_PATH}/components/esp_http_server/include",
+        "${env:IDF_PATH}/components/esp_https_ota/include",
+        "${env:IDF_PATH}/components/esp_https_server/include"
+      ],
+      "defines": [
+        "ESP_PLATFORM",
+        "IDF_VER=\"v4.4\""
+      ],
+      "compilerPath": "C:/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/main",
+          "${workspaceFolder}/esp_idf_components",
+          "${env:IDF_PATH}/components"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": ""
+      }
+    }
+  ],
+  "version": 4
+}
