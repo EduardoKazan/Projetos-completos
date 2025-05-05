@@ -1,10 +1,3 @@
-/*
-
-
-
-
-*/
-
 #include "PID.h"
 
 #define pSENSOR A1

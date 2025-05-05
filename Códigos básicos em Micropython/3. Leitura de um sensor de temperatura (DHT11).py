@@ -1,12 +1,16 @@
-import dht
 from machine import Pin
-import time
+from time import sleep
+import dht
 
-sensor = dht.DHT11(Pin(4))  # GPIO 4
+# Substitua 14 pelo número do pino GPIO que você está usando
+sensor = dht.DHT11(Pin(14))
 
 while True:
-    sensor.measure()
-    temp = sensor.temperature()
-    humidity = sensor.humidity()
-    print('Temperatura: {}°C, Umidade: {}%'.format(temp, humidity))
-    time.sleep(2)
+    try:
+        sensor.measure()
+        temp = sensor.temperature()
+        umid = sensor.humidity()
+        print(f"Temperatura: {temp}°C | Umidade: {umid}%")
+    except OSError as e:
+        print("Erro na leitura do sensor:", e)
+    sleep(2)  # Aguarda 2 segundos antes da próxima leitura
