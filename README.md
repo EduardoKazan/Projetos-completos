@@ -11,22 +11,7 @@ Este repositório reúne uma coleção de projetos completos voltados ao desenvo
 - **💻 Programação**: Scripts em Python, C/C++, e outras linguagens, voltados ao controle de hardware, processamento de sinais, automação e interfaceamento.
 - **⚙️ Controle**: Aplicações de controle PID, lógica de controle sequencial, malhas fechadas e sistemas de tempo real.
 - **🏭 Automação**: Soluções para automação residencial, industrial e educacional, integrando sensores, atuadores e controladores programáveis.
-
----
-
-## 📁 Estrutura do Repositório
-
-```
-Projetos-completos/
-├── eletronica/
-├── robotica/
-├── programacao/
-├── controle/
-├── automacao/
-├── docs/
-├── LICENSE
-└── README.md
-```
+- **📦 Projetos Completos**: Projetos prontos para uso, com documentação completa, listas de materiais (BOM), esquemas elétricos e código-fonte.
 
 ---
 
