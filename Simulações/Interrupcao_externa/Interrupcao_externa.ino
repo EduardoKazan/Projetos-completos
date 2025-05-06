@@ -11,7 +11,7 @@ void loop() {
   interrup_int();
 }
 
-//FUNCAO INTERRUPCAO EXTERNA
+// FUNCAO INTERRUPCAO EXTERNA
 
 void interrupcao_ext() {
   digitalWrite(led, HIGH);
