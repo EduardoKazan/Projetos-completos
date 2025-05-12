@@ -1,6 +1,6 @@
 # 💡 Projetos em Eletrônica, Robótica, Programação, Controle e Automação
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 [![Issues](https://img.shields.io/github/issues/EduardoKazan/Projetos-completos)](https://github.com/EduardoKazan/Projetos-completos/issues)
 [![Stars](https://img.shields.io/github/stars/EduardoKazan/Projetos-completos)](https://github.com/EduardoKazan/Projetos-completos/stargazers)
 
@@ -53,7 +53,7 @@ Contribuições são muito bem-vindas! Para colaborar:
 
 ## 📜 Licença
 
-Este repositório está licenciado sob os termos da [Licença MIT](LICENSE).
+Este repositório está licenciado sob os termos da [Licença MIT](LICENSE.md).
 
 ---
 
