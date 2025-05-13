@@ -1,14 +1,10 @@
-<div align="center">
-
 # Projetos de Tecnologia
-
-</div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 [![Issues](https://img.shields.io/github/issues/EduardoKazan/Projetos-completos)](https://github.com/EduardoKazan/Projetos-completos/issues)
 [![Stars](https://img.shields.io/github/stars/EduardoKazan/Projetos-completos)](https://github.com/EduardoKazan/Projetos-completos/stargazers)
 
-###
+##
 
 Este repositório reúne uma coleção de projetos completos voltados ao desenvolvimento de soluções tecnológicas nas seguintes áreas:
 
