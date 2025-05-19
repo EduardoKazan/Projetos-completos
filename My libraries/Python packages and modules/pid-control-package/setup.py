@@ -19,8 +19,20 @@ setup(
     description="A Python library for implementing PID control algorithms.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link",
+    url=(
+        "https://github.com/EduardoKazan/Projetos-completos/tree/main/"
+        "My%20libraries/Python%20packages%20and%20modules/pid_control"
+    ),
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Libraries",
+    ],
+    keywords="pid control automation feedback loop",
+    license="MIT",
 )

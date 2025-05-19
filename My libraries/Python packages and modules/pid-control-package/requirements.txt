@@ -1,0 +1,2 @@
+# This package has no external dependencies to install via pip.
+# It is designed for MicroPython environment with built-in 'machine' module.
