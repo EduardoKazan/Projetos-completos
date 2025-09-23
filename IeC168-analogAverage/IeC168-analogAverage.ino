@@ -1,8 +1,9 @@
 /********************************************************
- * CANAL INTERNET E COISAS
  * Função analogAverage
  * 04/2025 - Andre Michelon
  */
+
+
 
 uint16_t analogAverage(const uint8_t &a) {
   // Average analog read
@@ -13,3 +14,6 @@ uint16_t analogAverage(const uint8_t &a) {
   }
   return l / 100;
 }
+
+
+

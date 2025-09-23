@@ -1,8 +1,12 @@
 /********************************************************
- * CANAL INTERNET E COISAS
  * Função hold
- * 04/2025 - Andre Michelon
+ * 04/2025 
  */
+
+
+
+
+
 
 void hold(unsigned long ms) {
   uint32_t start = millis();
@@ -10,3 +14,11 @@ void hold(unsigned long ms) {
     yield();
   }
 }
+
+
+
+
+
+
+
+

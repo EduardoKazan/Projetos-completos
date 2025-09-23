@@ -1,7 +1,5 @@
 /*************************************************************
-
   This is a simple demo of sending and receiving some data.
-  Be sure to check out other examples!
  *************************************************************/
 
 /* Fill-in information from Blynk Device Info here */
@@ -11,7 +9,6 @@
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
-
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -23,6 +20,13 @@ char ssid[] = "Fredoncius";
 char pass[] = "Omenakazan!123";
 
 BlynkTimer timer;
+
+
+
+
+
+
+
 
 // This function is called every time the Virtual Pin 0 state changes
 BLYNK_WRITE(V0)
@@ -73,4 +77,13 @@ void loop()
   // Check other examples on how to communicate with Blynk. Remember
   // to avoid delay() function!
 }
+
+
+
+
+
+
+
+
+
 

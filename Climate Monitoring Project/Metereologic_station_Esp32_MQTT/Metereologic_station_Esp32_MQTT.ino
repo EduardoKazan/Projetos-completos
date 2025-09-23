@@ -8,12 +8,10 @@
 #include <Adafruit_BMP085.h>     // Biblioteca responsável pelo sensor BMP085
 #include <Adafruit_TSL2561_U.h>  // Biblioteca responsável pelo TSL2561_U
 #include <Adafruit_SSD1306.h>    // Biblioteca para o display OLED SSD1306
-
 #define GUVA_OUT_PIN 34           // Pino analógico do sensor UV GUVA-S12S
 #define SENSOR_CHUVA_AOUT_PIN 32  // Pino analógico do sensor de chuva
 #define SENSOR_CHUVA_DOUT_PIN 33  // Pino digital do sensor de chuva
 #define BOTAO_PIN 39              // Pino do botão para alternar entre as telas
-
 #define SCREEN_WIDTH 128  // OLED display width, in pixels
 #define SCREEN_HEIGHT 64  // OLED display height, in pixels
 
@@ -40,6 +38,10 @@ const char* mqtt_server = "62.146.172.61";
 const int mqtt_port = 8883;  // Porta SSL para MQTT
 const char* mqtt_user = "Seu_Usuario";
 const char* mqtt_password = "Sua_Senha";
+
+
+
+
 
 void setup() {
   client.setBufferSize(1024);  // Define o tamanho do buffer das mensagens que vão o Servidor para 1024 bytes
@@ -427,3 +429,7 @@ void reconnect() {
     }
   }
 }
+
+
+
+

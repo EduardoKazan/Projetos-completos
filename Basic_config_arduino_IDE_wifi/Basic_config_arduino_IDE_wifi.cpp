@@ -1,6 +1,13 @@
 // Basic_config_arduino_IDE_wifi.cpp
 #include "Basic_config_arduino_IDE_wifi.h"
 
+
+
+
+
+
+
+
 // Construtor padrão
 Basic_config_arduino_IDE_wifi::Basic_config_arduino_IDE_wifi()
   : _pinSensor1(255), _pinSensor2(255), _pinSensor3(255) {}
@@ -25,6 +32,11 @@ bool Basic_config_arduino_IDE_wifi::pinValido(uint8_t pin) {
   return (pin <= 54);  // A maioria dos Arduinos tem até 54 pinos digitais, ajuste conforme seu modelo
 }
 
+
+
+
+
+
 // Inicializa os pinos configurados como INPUT
 void Basic_config_arduino_IDE_wifi::init() {
   if (pinValido(_pinSensor1) && _pinSensor1 != 255) {
@@ -38,6 +50,11 @@ void Basic_config_arduino_IDE_wifi::init() {
   }
 }
 
+
+
+
+
+
 // Piscar LED no pino selecionado
 void Basic_config_arduino_IDE_wifi::piscarLED(int pin, int time) {
   pinMode(pin, OUTPUT);
@@ -46,6 +63,11 @@ void Basic_config_arduino_IDE_wifi::piscarLED(int pin, int time) {
   digitalWrite(pin, LOW);
   delay(time);
 }
+
+
+
+
+
 
 // Ler sensores digitais (alto ou baixo), retorna -1 se o sensor não estiver configurado
 int Basic_config_arduino_IDE_wifi::lerSensor1() {
@@ -66,3 +88,8 @@ int Basic_config_arduino_IDE_wifi::lerSensor3() {
   }
   return -1;
 }
+
+
+
+
+

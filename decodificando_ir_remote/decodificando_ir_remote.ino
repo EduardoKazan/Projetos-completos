@@ -9,6 +9,9 @@ IRrecv irrecv(IR_RECEIVER_PIN);
 // Define a variable to store the decoded IR signal
 decode_results results;
 
+
+
+
 void setup() {
   // Start the serial communication at 9600 baud
   Serial.begin(9600);
@@ -28,3 +31,6 @@ void loop() {
     irrecv.resume();
   }
 }
+
+
+

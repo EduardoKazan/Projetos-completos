@@ -1,5 +1,4 @@
 /* ============================================================================
-
      IHMWR v.01 main.c
 
      Serial Interface with 74HC595
@@ -10,9 +9,8 @@
      IDE: Espressif IDE 2.6.0
      ESP32 DevKitV1
 
-     Author: Dr. Eng. Wagner Rambo
+     Author: Eduardo Kazan
      Date:   2024, February
-
 ============================================================================ */
 
 
@@ -159,49 +157,6 @@ void keyboard_test(void)
 
 
 } //end keyboard_test
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

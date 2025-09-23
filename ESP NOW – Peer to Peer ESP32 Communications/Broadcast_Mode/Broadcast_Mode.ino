@@ -3,7 +3,6 @@
   esp-now-multi.ino
   Broadcasts control messages to all devices in network
   Load script on multiple devices
-
   DroneBot Workshop 2022
   https://dronebotworkshop.com
 */
@@ -11,7 +10,6 @@
 // Include Libraries
 #include <WiFi.h>
 #include <esp_now.h>
-
 #include <Arduino.h>  // Added for clarity on Arduino functions
 
 // Define LED and pushbutton state booleans
@@ -26,12 +24,18 @@ bool ledOn = false;
 unsigned long lastDebounceTime = 0;
 const unsigned long debounceDelay = 50; // 50 ms debounce delay
 
+
+
+
+
+
+
+
 void formatMacAddress(const uint8_t *macAddr, char *buffer, int maxLength)
 // Formats MAC Address
 {
   snprintf(buffer, maxLength, "%02x:%02x:%02x:%02x:%02x:%02x", macAddr[0], macAddr[1], macAddr[2], macAddr[3], macAddr[4], macAddr[5]);
 }
-
 
 void receiveCallback(const uint8_t *macAddr, const uint8_t *data, int dataLen)
 // Called when data is received
@@ -60,7 +64,6 @@ void receiveCallback(const uint8_t *macAddr, const uint8_t *data, int dataLen)
   digitalWrite(STATUS_LED, ledOn);
 }
 
-
 void sentCallback(const uint8_t *macAddr, esp_now_send_status_t status)
 // Called when data is sent
 {
@@ -88,6 +91,7 @@ void broadcast(const char *message)
       Serial.printf("Failed to add broadcast peer: %d\n", addStatus);
     }
   }
+
   // Send message
   esp_err_t result = esp_now_send(broadcastAddress, (const uint8_t *)message, strlen(message));
 
@@ -108,6 +112,10 @@ void broadcast(const char *message)
     Serial.println("Unknown error");
   }
 }
+
+
+
+
 
 void setup() {
 
@@ -144,6 +152,10 @@ void setup() {
   pinMode(STATUS_LED, OUTPUT);
 }
 
+
+
+
+
 void loop() {
   int reading = digitalRead(STATUS_BUTTON);
 
@@ -173,3 +185,6 @@ void loop() {
     buttonDown = false;
   }
 }
+
+
+

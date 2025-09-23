@@ -1,5 +1,4 @@
 /* ============================================================================
-
      IHMWR v.01 file.c
 
      Serial Interface with 74HC595
@@ -7,9 +6,8 @@
      auxiliary LED
      4 buttons
 
-     Author: Dr. Eng. Wagner Rambo
+     Author: Eduardo Kazan
      Date:   2024, February
-
 ============================================================================ */
 
 
@@ -339,50 +337,6 @@ char keyboard(void)
 
 
 } //end keyboard
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

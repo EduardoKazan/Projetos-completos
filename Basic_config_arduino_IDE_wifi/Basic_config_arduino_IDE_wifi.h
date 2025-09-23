@@ -1,10 +1,15 @@
 /* Basic_config_arduino_IDE_wifi.h
-
 - A biblioteca Basic_config_arduino_IDE_wifi permite configurar pinos de sensores e controle de LEDs
 - O usuário pode especificar os pinos ao instanciar a classe ou usar os métodos setPinSensorX
-
 */
  
+
+
+
+
+
+
+
 #ifndef BASIC_CONFIG_ARDUINO_IDE_WIFI_H
 #define BASIC_CONFIG_ARDUINO_IDE_WIFI_H
 
@@ -44,5 +49,11 @@ private:
 
   bool pinValido(uint8_t pin);
 };
+
+
+
+
+
+
 
 #endif
